@@ -14,15 +14,15 @@ let songItems=Array.from(document.getElementsByClassName("songItem"))
 let songs=[
 
 {songName: "let me love you", filePath:"songs/1.mp3",         coverPath:"covers/1.jpg"},
-{songName: "best songs same name given", filePath:"songs/2.mp3",coverPath:"covers/2.jpg"},
-{songName: "best songs same name given", filePath:"songs/3.mp3",coverPath:"covers/3.jpg"},
-{songName: "best songs same name given", filePath:"songs/4.mp3",coverPath:"covers/4.jpg"},
-{songName: "best songs same name given", filePath:"songs/5.mp3",coverPath:"covers/5.jpg"},
-{songName: "best songs same name given", filePath:"songs/6.mp3",coverPath:"covers/6.jpg"},
-{songName: "best songs same name given", filePath:"songs/7.mp3",coverPath:"covers/7.jpg"},
-{songName: "best songs same name given", filePath:"songs/8.mp3",coverPath:"covers/8.jpg"},
-{songName: "best songs same name given", filePath:"songs/9.mp3",coverPath:"covers/9.jpg"},
-{songName: "best songs same name given", filePath:"songs/10.mp3",coverPath:"covers/10.jpg"}]
+{songName: "favouritesong", filePath:"songs/2.mp3",coverPath:"covers/2.jpg"},
+{songName: "favouritesong", filePath:"songs/3.mp3",coverPath:"covers/3.jpg"},
+{songName: "favouritesong", filePath:"songs/4.mp3",coverPath:"covers/4.jpg"},
+{songName: "favouritesong", filePath:"songs/5.mp3",coverPath:"covers/5.jpg"},
+{songName: "favouritesong", filePath:"songs/6.mp3",coverPath:"covers/6.jpg"},
+{songName: "favouritesong", filePath:"songs/7.mp3",coverPath:"covers/7.jpg"},
+{songName: "favouritesong", filePath:"songs/8.mp3",coverPath:"covers/8.jpg"},
+{songName: "favouritesong", filePath:"songs/9.mp3",coverPath:"covers/9.jpg"},
+{songName: "favouritesong", filePath:"songs/10.mp3",coverPath:"covers/10.jpg"}]
 songItems.forEach((element, i)=>{ 
     element.getElementsByTagName("img")[0].src = songs[i].coverPath; 
     element.getElementsByClassName("songName")[0].innerText = songs[i].songName; 
